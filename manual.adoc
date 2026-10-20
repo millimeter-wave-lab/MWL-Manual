@@ -1,0 +1,28 @@
+= Manual del Laboratorio de Ondas Milimétricas
+Franco Curotto <fcurotto@das.uchile.cl>
+v0.0, 20/10/2026
+:title-page:
+
+== Introducción
+El siguiente documento es un manual para los ingenierios/as del Laboratorio de Ondas Milimétricas (MWL, Millimeter Wave Laboratory). Incluye la forma de uso de las herramientas digitales, los protocolos y las normas que los integrantes del laboratorio deben seguir durante la ejecución de sus proyectos. El objetivo es estandarizar la documentación y el traspaso de información en el laboratorio.
+
+== Herramientas Digitales
+A continuación se presenta un listado de las herramientas digitales oficiales del MWL. Los/as profesional integrantes del laboratorio deben priorizar estas herramientas por sobre otras para el traspaso de la información.
+
+- Email
+- Discord
+- Asana
+- GitHub
+- Google Drive
+
+== Reglas Generales de Laboratorio
+
+== Administración de Tareas
+
+== Administración de Archivos Digitales
+
+=== Códigos de Fuente
+
+=== Diseños Electrónicos
+
+=== Otros Tipos de Archivos
