@@ -1,2 +1,2 @@
 #!/bin/sh
-asciidoctor-pdf manual.adoc
+asciidoctor-pdf -a pdf-theme=theme.yml manual.adoc
