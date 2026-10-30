@@ -1,44 +1,59 @@
-= Manual del Laboratorio de Ondas Milimétricas
-:lang: es
+= Millimeter-Wave Laboratory Engineer's Manual
 :title-page:
-:title-logo-image: image:images/logos/mwl.png[top=5%,align=left,pdfwidth=8cm]
-:version-label: Versión
+:title-logo-image: image:images/logos/mwl-v2.1.png[top=5%,align=left,pdfwidth=6cm]
 :toc:
-:toc-title: Índice
 Franco Curotto <fcurotto@das.uchile.cl>
 v0.0, 20/10/2026
 
-== Introducción
-El siguiente documento es un manual para los ingenierios/as del Laboratorio de Ondas Milimétricas (MWL, Millimeter Wave Laboratory). Incluye la forma de uso de las herramientas digitales, los protocolos y las normas que los integrantes del laboratorio deben seguir durante la ejecución de sus proyectos. El objetivo es estandarizar la documentación y el traspaso de información en el laboratorio.
+// definitions
+:email: image:images/logos/email.svg[fit=line] Email
+:discord: image:images/logos/discord.svg[fit=line] Discord
+:asana: image:images/logos/asana.png[fit=line] Asana
+:github: image:images/logos/github.svg[fit=line] GitHub
+:gdrive: image:images/logos/gdrive.svg[fit=line] Google Drive
+:gcalendar: image:images/logos/gcalendar.svg[fit=line] Google Calendar
 
-== Herramientas Digitales
-A continuación se presenta un listado de las herramientas digitales oficiales del MWL. Los/as profesional integrantes del laboratorio deben priorizar estas herramientas por sobre otras para el traspaso de la información.
+== Introduction
+The following document is a manual for the engineers working at the Millimeter-Wave Laboratory (MWL) located in the Astronomy Department (DAS) of the University of Chile. In includes the use of the web tools, laboratory protocols and rules the lab members must follow during the execution of their projects. The document objective is to standardize the information channels and documentation within the laboratory.
 
-image:images/logos/email.svg[fit=line] Email::
-- Acceso: Solicitar la creación de un mail *@das.uchile.cl* al Coordinador del Laboratorio.
-- Uso:
-image:images/logos/discord.svg[fit=line] Discord::
-- Acceso: Crear una cuenta con mail *@das* en https://discord.com, luego solicitar acceso a los servidores al Coordinador del Laboratorio.
-- Uso:
-image:images/logos/asana.svg[fit=line] Asana::
-- Acceso: Crear una cuenta con mail *@das* en https://asana.com, luego solicitar acces a los proyectos al Coordinador del Laboratorio.
-- Uso: 
+== Relevant People
+If you ever have a question or request about the Millimeter-Wave Laboratory operation, please contact one of the following people:
 
-image:images/logos/github.svg[fit=line] GitHub::
-- Acceso: Crear una cuenta con mail *@das* en https://github.com, luego solicitar ingreso a la institución millimeter-wave-lab al Coordinador del Laboratorio.
-- Uso:
-image:images/logos/gdrive.svg[fit=line] Google Drive::
-- Acceso: Solicitar acceso al drive asociado al mail mwl@raig.uchile.cl a través del mail *@das* al Coordinador del Laboratorio.
-- Uso:
+- Ricardo Finger <rfinger@das.uchile.cl>. Laboratory Leader.
+- Leonardo Bronfman <leo@das.uchile.cl>. Emeritus Laboratory Leader.
+- Franco Curotto <fcurotto@das.uchile.cl>. Laboratory Manager.
 
-== Reglas Generales de Laboratorio
+== Web Tools
+Below there is a list of the official wen tools used in the MWL. The lab members must prioritize the use of these tools over others for the sharing of the relevant information of their projects.
 
-== Administración de Tareas
+{email}::
+Access::: Request the creation of an *@das.uchile.cl* (also called *@das*) to the Lab Manager. Also request for the created email to join the *todos@das.uchile.cl* and the *instrumentacion@das.uchile.cl* mail groups.
+Uses::: Official laboratory and department information. General announcements.
+{discord}::
+Access::: Create an account with the *@das* email at https://discord.com, then request access to the relevant project servers to the Lab Manager.
+Uses::: Quick discussions and updates on projects. Informal announcements. Sharing of initial and partial results (which don't need backup). Coordination of meetings, off-site work trips, and lab visits.
+{asana}::
+Access::: Create and account with the *@das* email at https://asana.com, then request access to the relevant projects pages to the Lab Manager.
+Uses::: Management and tracking of project tasks.
+{github}::
+Access::: Create an account with your *@das* email at https://github.com, then request access to the GitHub organization `millimeter-wave-lab` to the Lab Manager.
+Uses::: Backup, management and documentation of source code, and electronic designs for projects.
+{gdrive}::
+Access::: Request access the MWL drive linked to the mwl@raig.uchile.cl email through the *@das* email to the Lab Manager.
+Uses::: Backup of general digital files that cannot be manages with git, or are to big to backup in GitHub. Examples: mechanical designs, documents, images, videos, etc). Documentation of final designs and results for projects.
+{gcalendar}::
+Access::: Add the lab calendar to your preferred calendar app via this link: https://calendar.google.com/calendar/u/0?cid=bXdsQHJhaWcudWNoaWxlLmNs
+Uses::: Sharing of lab events.
 
-== Administración de Archivos Digitales
+== General Lab Rules
 
-=== Códigos de Fuente
+== Tasks Management
+All project tasks in the lab are managed with the web platform {asana}.
 
-=== Diseños Electrónicos
+== Digital Files Management
 
-=== Otros Tipos de Archivos
+=== Source Code
+
+=== Electronic Designs
+
+=== Other Files

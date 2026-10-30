@@ -3,3 +3,17 @@ extends: default
 title-page:
   authors:
     content: "{author} <{email}>"
+
+
+page:
+  margin: [4cm, 2cm , 2cm, 2cm]
+
+header:
+  height: 4cm
+  image-vertical-align: middle
+  recto:
+    right:
+      content: image:images/logos/mwl-v2.1.png[pdfwidth=4cm]
+  verso:
+    left:
+      content: image:images/logos/mwl-v2.1.png[pdfwidth=4cm]
