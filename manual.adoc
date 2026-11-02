@@ -6,12 +6,13 @@ Franco Curotto <fcurotto@das.uchile.cl>
 v0.0, 20/10/2026
 
 // definitions
-:email: image:images/logos/email.svg[fit=line] Email
-:discord: image:images/logos/discord.svg[fit=line] Discord
-:asana: image:images/logos/asana.png[fit=line] Asana
-:github: image:images/logos/github.svg[fit=line] GitHub
-:gdrive: image:images/logos/gdrive.svg[fit=line] Google Drive
-:gcalendar: image:images/logos/gcalendar.svg[fit=line] Google Calendar
+:iconsize: 20,20
+:email: image:images/logos/email.svg[{iconsize}] Email
+:discord: image:images/logos/discord.svg[{iconsize}] Discord
+:asana: image:images/logos/asana.png[{iconsize}] Asana
+:github: image:images/logos/github.svg[{iconsize}] GitHub
+:gdrive: image:images/logos/gdrive.svg[{iconsize}] Google Drive
+:gcalendar: image:images/logos/gcalendar.svg[{iconsize}] Google Calendar
 
 == Introduction
 The following document is a manual for the engineers working at the Millimeter-Wave Laboratory (MWL) located in the Astronomy Department (DAS) of the University of Chile. In includes the use of the web tools, laboratory protocols and rules the lab members must follow during the execution of their projects. The document objective is to standardize the information channels and documentation within the laboratory.
