@@ -15,7 +15,7 @@ v0.0, 20/10/2026
 :gcalendar: image:images/logos/gcalendar.svg[{iconsize}] Google Calendar
 
 == Introduction
-The following document is a manual for the engineers working at the Millimeter-Wave Laboratory (MWL) located in the Astronomy Department (DAS) of the University of Chile. In includes the use of the web tools, laboratory protocols and rules the lab members must follow during the execution of their projects. The document objective is to standardize the information channels and documentation within the laboratory.
+The following document is a manual for the engineers working at the Millimeter-Wave Laboratory (MWL) located in the Astronomy Department (DAS) of the University of Chile. It includes the use of the web tools, laboratory protocols and rules the lab members must follow during the execution of their projects. The document objective is to standardize the information channels and documentation within the laboratory.
 
 == Relevant People
 If you ever have a question or request about the Millimeter-Wave Laboratory operation, please contact one of the following people:
@@ -40,7 +40,7 @@ Uses::: Management and tracking of project tasks.
 Access::: Create an account with your *@das* email at https://github.com, then request access to the GitHub organization `millimeter-wave-lab` to the Lab Manager.
 Uses::: Backup, management and documentation of source code, and electronic designs for projects.
 {gdrive}::
-Access::: Request access the MWL drive linked to the mwl@raig.uchile.cl email through the *@das* email to the Lab Manager.
+Access::: Request access to the MWL drive linked to the mwl@raig.uchile.cl email through the *@das* email to the Lab Manager.
 Uses::: Backup of general digital files that cannot be manages with git, or are to big to backup in GitHub. Examples: mechanical designs, documents, images, videos, etc). Documentation of final designs and results for projects.
 {gcalendar}::
 Access::: Add the lab calendar to your preferred calendar app via this link: https://calendar.google.com/calendar/u/0?cid=bXdsQHJhaWcudWNoaWxlLmNs
