@@ -6,13 +6,18 @@ Franco Curotto <fcurotto@das.uchile.cl>
 v0.0, 20/10/2026
 
 // definitions
-:iconsize: 20,20
-:email: image:images/logos/email.svg[{iconsize}] Email
-:discord: image:images/logos/discord.svg[{iconsize}] Discord
-:asana: image:images/logos/asana.png[{iconsize}] Asana
-:github: image:images/logos/github.svg[{iconsize}] GitHub
-:gdrive: image:images/logos/gdrive.svg[{iconsize}] Google Drive
-:gcalendar: image:images/logos/gcalendar.svg[{iconsize}] Google Calendar
+:iconwidth: 16
+:email: image:images/logos/email.svg[width={iconwidth}] Email
+:discord: image:images/logos/discord.svg[width={iconwidth}] Discord
+:asana: image:images/logos/asana.png[width={iconwidth}] Asana
+:github: image:images/logos/github.svg[width={iconwidth}] GitHub
+:gdrive: image:images/logos/gdrive.svg[width={iconwidth}] Google Drive
+:gcalendar: image:images/logos/gcalendar.svg[width={iconwidth}] Google Calendar
+:rule: image:images/emojis/rule.svg[width={iconwidth}] Rule {counter:rule}
+
+// modifications
+// remove example captions in order to make custom blocks (like Rule)
+:example-caption!:
 
 == Introduction
 The following document is a manual for the engineers working at the Millimeter-Wave Laboratory (MWL) located in the Astronomy Department (DAS) of the University of Chile. It includes the use of the web tools, laboratory protocols and rules the lab members must follow during the execution of their projects. The document objective is to standardize the information channels and documentation within the laboratory.
@@ -20,12 +25,12 @@ The following document is a manual for the engineers working at the Millimeter-W
 == Relevant People
 If you ever have a question or request about the Millimeter-Wave Laboratory operation, please contact one of the following people:
 
-- Ricardo Finger <rfinger@das.uchile.cl>. Laboratory Leader.
-- Leonardo Bronfman <leo@das.uchile.cl>. Emeritus Laboratory Leader.
-- Franco Curotto <fcurotto@das.uchile.cl>. Laboratory Manager.
+- Ricardo Finger <rfinger@das.uchile.cl>: Laboratory Director
+- Leonardo Bronfman <leo@das.uchile.cl>: Emeritus Laboratory Leader
+- Franco Curotto <fcurotto@das.uchile.cl>: Laboratory Manager
 
 == Web Tools
-Below there is a list of the official wen tools used in the MWL. The lab members must prioritize the use of these tools over others for the sharing of the relevant information of their projects.
+Below there is a list of the official web tools used at the MWL. The lab members must prioritize the use of these tools over others for the sharing of relevant information of their projects.
 
 {email}::
 Access::: Request the creation of an *@das.uchile.cl* (also called *@das*) to the Lab Manager. Also request for the created email to join the *todos@das.uchile.cl* and the *instrumentacion@das.uchile.cl* mail groups.
@@ -41,12 +46,18 @@ Access::: Create an account with your *@das* email at https://github.com, then r
 Uses::: Backup, management and documentation of source code, and electronic designs for projects.
 {gdrive}::
 Access::: Request access to the MWL drive linked to the mwl@raig.uchile.cl email through the *@das* email to the Lab Manager.
-Uses::: Backup of general digital files that cannot be manages with git, or are to big to backup in GitHub. Examples: mechanical designs, documents, images, videos, etc). Documentation of final designs and results for projects.
+Uses::: Backup of general digital files that cannot be managed with git, or are too big to backup in GitHub. Examples: mechanical designs, documents, images, videos, etc). Documentation of final designs and results for projects.
 {gcalendar}::
 Access::: Add the lab calendar to your preferred calendar app via this link: https://calendar.google.com/calendar/u/0?cid=bXdsQHJhaWcudWNoaWxlLmNs
 Uses::: Sharing of lab events.
 
 == General Lab Rules
+Below is a list of rules that every member must follow when working inside de laboratory.
+
+.{rule}
+====
+Always disconnect the power before maintenance.
+====
 
 == Tasks Management
 All project tasks in the lab are managed with the web platform {asana}.
