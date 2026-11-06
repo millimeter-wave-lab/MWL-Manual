@@ -13,7 +13,6 @@ v0.0, 20/10/2026
 :github: image:images/logos/github.svg[width={iconwidth}] GitHub
 :gdrive: image:images/logos/gdrive.svg[width={iconwidth}] Google Drive
 :gcalendar: image:images/logos/gcalendar.svg[width={iconwidth}] Google Calendar
-:rule: image:images/emojis/rule.svg[width={iconwidth}] Rule {counter:rule}
 
 // modifications
 // remove example captions in order to make custom blocks (like Rule)
@@ -54,9 +53,24 @@ Uses::: Sharing of lab events.
 == General Lab Rules
 Below is a list of rules that every member must follow when working inside de laboratory.
 
-.{rule}
+.📜 Rule {counter:rule}
 ====
-Always disconnect the power before maintenance.
+📜 Always disconnect the power before maintenance.
+====
+
+.⚠ Rule {counter:rule}
+====
+📜 Always disconnect the power before maintenance.
+====
+
+.&#x1F600; Rule {counter:rule}
+====
+📜 Always disconnect the power before maintenance.
+====
+
+.😀 Test
+====
+Test content.
 ====
 
 == Tasks Management
