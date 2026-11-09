@@ -16,7 +16,7 @@ v0.0, 20/10/2026
 
 // modifications
 // remove example captions in order to make custom blocks (like Rule)
-:example-caption!:
+:example-caption: 📜 Rule
 
 == Introduction
 The following document is a manual for the engineers working at the Millimeter-Wave Laboratory (MWL) located in the Astronomy Department (DAS) of the University of Chile. It includes the use of the web tools, laboratory protocols and rules the lab members must follow during the execution of their projects. The document objective is to standardize the information channels and documentation within the laboratory.
@@ -53,24 +53,43 @@ Uses::: Sharing of lab events.
 == General Lab Rules
 Below is a list of rules that every member must follow when working inside de laboratory.
 
-.📜 Rule {counter:rule}
+.*Supervisors*
 ====
-📜 Always disconnect the power before maintenance.
-====
-
-.⚠ Rule {counter:rule}
-====
-📜 Always disconnect the power before maintenance.
+Every person working on the lab *must have a supervisor*, to which they may ask and confirm information. By default, the supervisor is the lab manager.
 ====
 
-.&#x1F600; Rule {counter:rule}
+.*Equipment*
 ====
-📜 Always disconnect the power before maintenance.
+Every person working on the lab *must receive training* from their supervisor at least once before the start of their work in the lab. For specialized equipment (Vector Network Analyzers, Circuit Board Plotters,etc.) we follow the 1-2-3 rule:
+
+1. The first time, the supervisor teaches the person how to use the equipment. The person sees and takes notes.
+2. The second time, the person uses the equipment and the supervisor monitors it correct operation.
+3. The third time, the person is allowed to use the equipment without supervision, assuming he/she can contact the supervisor in case of every trouble or question.
 ====
 
-.😀 Test
+.*Accidents*
 ====
-Test content.
+Accidents and near-accidents that may have caused damage to the lab equipment or people *must be reported* immediately to the supervisor.
+====
+
+.*Order*
+====
+After each experiment and each day of work every worker *must return all the equipment, devices, tools, connectors and cables* to their original location. If the worker must continue to use the same setup for the next day, he/she is allowed to keep the equipment in its setup position, however, all devices and tools not part of the setup must be returned to their original location.
+====
+
+.*Faulty Equipment*
+====
+If the worker finds a faulty equipment or device, he/she *must report it*  immediately to the supervisor, even if the fault was not the responsibility of the worker. After the fault was idenfied and reported, the equipment must be *labeled with a sticker* describing the fault. If the worker finds a faulty cable, he/she must cut the cable and dispose it.
+====
+
+.*Cleaning*
+====
+Its responsibility of each worker to *keep their working area clean* and free of dust after every experiment.
+====
+
+.*Food*
+====
+*No food or drinks are allowed* inside the laboratory.
 ====
 
 == Tasks Management
@@ -83,3 +102,5 @@ All project tasks in the lab are managed with the web platform {asana}.
 === Electronic Designs
 
 === Other Files
+
+== Telework Rules
