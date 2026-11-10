@@ -8,15 +8,16 @@ v0.0, 20/10/2026
 // definitions
 :iconwidth: 16
 :email: image:images/logos/email.svg[width={iconwidth}] Email
-:discord: image:images/logos/discord.svg[width={iconwidth}] Discord
-:asana: image:images/logos/asana.png[width={iconwidth}] Asana
-:github: image:images/logos/github.svg[width={iconwidth}] GitHub
-:gdrive: image:images/logos/gdrive.svg[width={iconwidth}] Google Drive
-:gcalendar: image:images/logos/gcalendar.svg[width={iconwidth}] Google Calendar
+:discord: https://discord.com[image:images/logos/discord.svg[width={iconwidth}] Discord]
+:asana: https://asana.com[image:images/logos/asana.png[width={iconwidth}] Asana]
+:github: https://github.com[image:images/logos/github.svg[width={iconwidth}] GitHub]
+:gdrive: https://drive.google.com[image:images/logos/gdrive.svg[width={iconwidth}] Google Drive]
+:gcalendar: https://calendar.google.com[image:images/logos/gcalendar.svg[width={iconwidth}] Google Calendar]
+:rule: image:images/emojis/rule.svg[width={iconwidth}]
 
 // modifications
 // remove example captions in order to make custom blocks (like Rule)
-:example-caption: 📜 Rule
+:example-caption!:
 
 == Introduction
 The following document is a manual for the engineers working at the Millimeter-Wave Laboratory (MWL) located in the Astronomy Department (DAS) of the University of Chile. It includes the use of the web tools, laboratory protocols and rules the lab members must follow during the execution of their projects. The document objective is to standardize the information channels and documentation within the laboratory.
@@ -32,33 +33,33 @@ If you ever have a question or request about the Millimeter-Wave Laboratory oper
 Below there is a list of the official web tools used at the MWL. The lab members must prioritize the use of these tools over others for the sharing of relevant information of their projects.
 
 {email}::
-Access::: Request the creation of an *@das.uchile.cl* (also called *@das*) to the Lab Manager. Also request for the created email to join the *todos@das.uchile.cl* and the *instrumentacion@das.uchile.cl* mail groups.
-Uses::: Official laboratory and department information. General announcements.
+*Access:* Request the creation of an *@das.uchile.cl* (also called *@das*) to the Lab Manager. Also request for the created email to join the *todos@das.uchile.cl* and the *instrumentacion@das.uchile.cl* mail groups. +
+*Uses:* Official laboratory and department information. General announcements.
 {discord}::
-Access::: Create an account with the *@das* email at https://discord.com, then request access to the relevant project servers to the Lab Manager.
-Uses::: Quick discussions and updates on projects. Informal announcements. Sharing of initial and partial results (which don't need backup). Coordination of meetings, off-site work trips, and lab visits.
+*Access:* Create an account with the *@das* email at https://discord.com, then request access to the relevant project servers to the Lab Manager. +
+*Uses:* Quick discussions and updates on projects. Informal announcements. Sharing of initial and partial results (which don't need backup). Coordination of meetings, off-site work trips, and lab visits.
 {asana}::
-Access::: Create and account with the *@das* email at https://asana.com, then request access to the relevant projects pages to the Lab Manager.
-Uses::: Management and tracking of project tasks.
+*Access:* Create and account with the *@das* email at https://asana.com, then request access to the relevant projects pages to the Lab Manager. +
+*Uses:* Management and tracking of project tasks.
 {github}::
-Access::: Create an account with your *@das* email at https://github.com, then request access to the GitHub organization `millimeter-wave-lab` to the Lab Manager.
-Uses::: Backup, management and documentation of source code, and electronic designs for projects.
+*Access:* Create an account with your *@das* email at https://github.com, then request access to the GitHub organization `millimeter-wave-lab` to the Lab Manager. +
+*Uses:* Backup, management and documentation of source code, and electronic designs for projects.
 {gdrive}::
-Access::: Request access to the MWL drive linked to the mwl@raig.uchile.cl email through the *@das* email to the Lab Manager.
-Uses::: Backup of general digital files that cannot be managed with git, or are too big to backup in GitHub. Examples: mechanical designs, documents, images, videos, etc). Documentation of final designs and results for projects.
+*Access:* Request access to the MWL drive linked to the mwl@raig.uchile.cl email through the *@das* email to the Lab Manager. +
+*Uses:* Backup of general digital files that cannot be managed with git, or are too big to backup in GitHub. Examples: mechanical designs, documents, images, videos, etc). Documentation of final designs and results for projects.
 {gcalendar}::
-Access::: Add the lab calendar to your preferred calendar app via this link: https://calendar.google.com/calendar/u/0?cid=bXdsQHJhaWcudWNoaWxlLmNs
-Uses::: Sharing of lab events.
+Access: Add the lab calendar to your preferred calendar app via this link: https://calendar.google.com/calendar/u/0?cid=bXdsQHJhaWcudWNoaWxlLmNs +
+*Uses:* Sharing of lab events.
 
 == General Lab Rules
 Below is a list of rules that every member must follow when working inside de laboratory.
 
-.*Supervisors*
+.{rule} Rule 1 - *Supervisors*
 ====
 Every person working on the lab *must have a supervisor*, to which they may ask and confirm information. By default, the supervisor is the lab manager.
 ====
 
-.*Equipment*
+.{rule} Rule 2 - *Equipment*
 ====
 Every person working on the lab *must receive training* from their supervisor at least once before the start of their work in the lab. For specialized equipment (Vector Network Analyzers, Circuit Board Plotters,etc.) we follow the 1-2-3 rule:
 
@@ -67,27 +68,27 @@ Every person working on the lab *must receive training* from their supervisor at
 3. The third time, the person is allowed to use the equipment without supervision, assuming he/she can contact the supervisor in case of every trouble or question.
 ====
 
-.*Accidents*
+.{rule} Rule 3 - *Accidents*
 ====
 Accidents and near-accidents that may have caused damage to the lab equipment or people *must be reported* immediately to the supervisor.
 ====
 
-.*Order*
+.{rule} Rule 4 - *Order*
 ====
 After each experiment and each day of work every worker *must return all the equipment, devices, tools, connectors and cables* to their original location. If the worker must continue to use the same setup for the next day, he/she is allowed to keep the equipment in its setup position, however, all devices and tools not part of the setup must be returned to their original location.
 ====
 
-.*Faulty Equipment*
+.{rule} Rule 5 - *Faulty Equipment*
 ====
 If the worker finds a faulty equipment or device, he/she *must report it*  immediately to the supervisor, even if the fault was not the responsibility of the worker. After the fault was idenfied and reported, the equipment must be *labeled with a sticker* describing the fault. If the worker finds a faulty cable, he/she must cut the cable and dispose it.
 ====
 
-.*Cleaning*
+.{rule} Rule 6 - *Cleaning*
 ====
 Its responsibility of each worker to *keep their working area clean* and free of dust after every experiment.
 ====
 
-.*Food*
+.{rule} Rule 7 - *Food*
 ====
 *No food or drinks are allowed* inside the laboratory.
 ====
