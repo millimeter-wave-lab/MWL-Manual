@@ -94,14 +94,47 @@ Its responsibility of each worker to *keep their working area clean* and free of
 ====
 
 == Tasks Management
-All project tasks in the lab are managed with the web platform {asana}.
+All project's tasks in the lab are managed with the web platform {asana}. *Each engineer is responsible to register and keep up to date all of their tasks*. The {asana} should be updated at least on a weekly basis. Tasks should generally arise from the coordination meetings with the project supervisor, but the engineers are allowed to create additional tasks if they see it is convenient as long as the other tasks are not modified. Any modification of the tasks must be discussed with the project supervisor. For each task, the following attributes must be created and updated properly:
+
+- Name and description
+- Project
+- Assignee
+- End date
+
+Additionally, tasks must be marked as "`completed`" as soon as possible after completion. It is assumed that work on tasks start the day they are assigned to an engineer. During performance reviews the engineering "`performance`" on tasks is used to aid the review. The task performance, is computed as:
+
+Task Performance = (work days assigned to task) / (work days duration of task) [%]
+
+So 100% means the task was completed in the expected amount of days, 50% means that the task needed twice the amount of days to complete, and 200% means that the tasks was completed in half the required time.
+
+A "`total performance`" measure can be computed as the weighted sum of the performance of all the assigned tasks. This can be shown to be equivalent to:
+
+Total Performance = (Σ work days assigned to task) / (Σ work days duration of tasks) [%]
+
+Where the symbol Σ means the summation across all tasks assigned to an engineer.
+
+Even though engineers' work cannot be completely summarized by a single number, the performance metric is an important part to assess the work contribution of each engineer and detect improvement points in our organization. So it's essential that each engineer manages their tasks responsibly.
 
 == Digital Files Management
+This section describes the engineer should manages all the types of digital files generated during their work. It's divided in _source code_, _electronic design_, _documentation_ and _other files_.
 
 === Source Code
+All source code written for the lab projects must be managed using https://git-scm.com[git], and must be backed up regularly in our own {github} organization at https://github.com/millimeter-wave-lab. Each engineer is responsible to neatly organize their project code in repositories. The standard naming for repositories must be: `<PROJECT>-<RepositoryName>` (notice the case convention used).
+
+Tasks in {asana} relating to coding should not be marked as completed until the relevant code is "`pushed`" to the {github} repository.
+
+==== Style Guidelines
+
+==== AI Usage
 
 === Electronic Designs
+
+=== Documentation
 
 === Other Files
 
 == Telework Rules
+
+== Field Visit Rules
+
+== Performance Reviews
