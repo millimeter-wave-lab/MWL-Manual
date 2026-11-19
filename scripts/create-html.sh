@@ -1,2 +1,2 @@
 #!/bin/sh
-asciidoctor ../manual.adoc
+asciidoctor ../manual.adoc -o ../index.html
