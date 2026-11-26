@@ -3,7 +3,7 @@
 :title-logo-image: image:images/logos/mwl-v2.1.png[top=5%,align=left,pdfwidth=6cm]
 :toc:
 Franco Curotto <fcurotto@das.uchile.cl>
-v1.0, {docdate}
+v1.1, {docdate}
 
 // definitions
 :iconwidth: 16
@@ -195,7 +195,7 @@ Before the Visit::
 . The engineer must prepare a _Visit Plan_ describing the visit objectives, the tasks required to achieve them, and the tools and equipment to be taken. The plan may be a PDF document or a detailed message in {discord}.
 . The engineer must identify and obtain all personal protective equipment (PPE) required for the visit. If any required PPE is unavailable, the engineer must contact the Laboratory Manager to resolve the issue.
 . The engineer should coordinate with the Laboratory Manager to arrange for another engineer to accompany them when necessary.
-. If a device or system is to be installed, the engineer must verify that it is functioning correctly and complies with the applicable standards and requirements of the host institution.
+. If a device or system is to be installed, the engineer must present it to the supervisor or Lab Manager in order to verify it is functioning correctly and complies with the applicable standards and requirements of the host institution.
 . If equipment is to be taken to the visit, the engineer must confirm that it is functioning correctly before departure.
 During the Visit::
 . The engineer must take photographs and videos during the visit to document the work performed.
@@ -238,7 +238,8 @@ In addition, a qualitative review is conducted in which the engineer is evaluate
 
 == Version History
 [options="header"]
-|=======================
-|Version | Date       | Details
+|=========================================
+|Version | Date       | Details         
 | v1.0   | 2026-11-19 | Initial release.
-|=======================
+| v1.1   | 2026-11-26 | Added external verification for field visit installations.
+|=========================================
